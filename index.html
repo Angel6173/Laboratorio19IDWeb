@@ -2,19 +2,71 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Laboratorio 19</title>
+    <title>Laboratorio 19 </title>
 </head>
 <body>
+
+    <h1>LABORATORIO 19 </h1>
+
+    <!-- EJERCICIO 3 -->
     <h2>Ejercicio 3: Buscar Pokémon por ID</h2>
     <input type="number" id="pokemonId" placeholder="Ingresa un ID">
     <button onclick="buscarPokemonPorID()">Buscar</button>
 
+    <!-- EJERCICIO 4 -->
     <h2>Ejercicio 4: Altura y peso de Pikachu (.then)</h2>
     <button onclick="datosPikachuThen()">Mostrar datos</button>
 
+    <!-- EJERCICIO 5 -->
     <h2>Ejercicio 5: Altura y peso de Pikachu (async/await)</h2>
     <button onclick="datosPikachuAsync()">Mostrar datos</button>
+
+    <!-- EJERCICIO 6 -->
+    <h2>Ejercicio 6: Sprite de Charizard</h2>
+    <button onclick="spriteCharizard()">Mostrar sprite URL</button>
+
+    <!-- EJERCICIO 7 -->
+    <h2>Ejercicio 7: Listar primeros 20 Pokémon</h2>
+    <button onclick="listar20()">Listar en consola</button>
+
+    <!-- EJERCICIO 8 -->
+    <h2>Ejercicio 8: Pokémon aleatorio</h2>
+    <button onclick="pokemonAleatorio()">Mostrar Pokémon aleatorio</button>
+
+    <!-- EJERCICIO 9 -->
+    <h2>Ejercicio 9: Buscador visual </h2>
+    <input type="number" id="pokemonVisualId" placeholder="Ingresa ID">
+    <button onclick="buscadorVisual()">Buscar</button>
+    <div id="resultadoVisual"></div>
+
+    <!-- EJERCICIO 10 -->
+    <h2>Ejercicio 10: Pokémon del 1 al 10</h2>
+    <button onclick="mostrarPokemones1al10()">Mostrar</button>
+    <div id="listaPokemones"></div>
+
+    <!-- EJERCICIO 11 -->
+    <h2>Ejercicio 11: Buscar por nombre o ID </h2>
+    <input type="text" id="pokemonTipo" placeholder="Nombre o ID">
+    <button onclick="mostrarTipos()">Mostrar tipos</button>
+    <div id="tiposResultado"></div>
+
+    <!-- EJERCICIO 12 -->
+    <h2>Ejercicio 12: Mostrar estadísticas </h2>
+    <input type="text" id="pokemonStatsConsola" placeholder="Nombre o ID">
+    <button onclick="statsConsola()">Mostrar en consola</button>
+
+    <!-- EJERCICIO 13 -->
+    <h2>Ejercicio 13: Mostrar estadísticas</h2>
+    <input type="text" id="pokemonStatsHTML" placeholder="Nombre o ID">
+    <button onclick="statsHTML()">Mostrar en pantalla</button>
+    <div id="statsResultadoHTML"></div>
+
+    <!-- EJERCICIO 14 -->
+    <h2>Ejercicio 14</h2>
+    <button onclick="anterior()">Anterior</button>
+    <button onclick="siguiente()">Siguiente</button>
+    <div id="cards"></div>
+
     <script src="script.js"></script>
 </body>
 </html>
-
